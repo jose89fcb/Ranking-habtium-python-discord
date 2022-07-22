@@ -30,7 +30,7 @@ async def ranking(ctx, *, habboNombre):
 
     
     
-    #PLACA 1
+    #Embed
     embed = discord.Embed(title=f"Ranking Habtium - Keko -> {habboNombre}", description=f"Total: {Total}\n\nVariación: {Variacion}")
     embed.set_thumbnail(url=f"https://www.habbo.es/habbo-imaging/avatarimage?user={habboNombre}&direction=2&head_direction=3&gesture=sml&action=wav&size=n")
     await ctx.channel.send(embed=embed)
